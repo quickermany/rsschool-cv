@@ -4,45 +4,79 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
-  <body id="body">
+  <body>
     <div class="wrapper">
       <header class="page-header">
         <h1>Anton Klimenka</h1>
-        <h2>Frontend Developer</h2>
+        <h3>Frontend Developer</h3>
       </header>
+      <aside>
+        <img src="./img/50962831.jpg" alt="My foto" />
 
-      <main class="main">
-        <section class="profile">
+        <article class="education">
+          <h2>Education</h2>
+          <p>
+            Belarusian State Univercity of Transport <br />
+            <b>Faculty:</b> Distance form of education. <br />
+            <b>Speciality:</b> Bulding technologies
+          </p>
+        </article>
+        <article class="code">
+          <h2>Code Example</h2>
+          <div class="code-example">
+            <code >
+              function getRandomNumber(max) { return Math.floor(Math.random() *
+              max); 
+            }
+            </code>
+          </div>
+        </article>
+        <article class="contacts">
+          <h2>Contacts</h2>
+        </article>
+        <ul>
+          <li><b>Location:</b> Gorzow Wielkopolski, Poland</li>
+          <li><b>Phone: </b>+48451139540</li>
+          <li>
+           <b> Email:</b>
+            <a href="anton.klimenka.pl@gmail.com" target="_blank"
+              >anton.klimenka.@gmail.com</a
+            >
+          </li>
+        </ul>
+      </aside>
+      <main>
+        <article class="profile">
           <h2>Profile</h2>
           <p>
-            I'm Frontend Developer and my main goal is to recovery my IT career.
+            &nbsp I'm Frontend Developer and my main goal is to recovery my IT career.
             My current work requires a lot of self-education and responsibility
             because I often work independently and have strict deadlines, so I
             would add that I result oriented, initiative employee. I also like
             to work in collaboration with my colleagues where it is possible
             because it helps me learn new things and results are usually better.
           </p>
-        </section>
-        <section class="experience">
+        </article>
+        <article class="experience">
           <h2>Work Experience</h2>
           <ul>
             <li>
-              12.2021 - 03.2022 Junior Software Developer, Itransition, Minsk
+              &nbsp <b>12.2021 - 03.2022</b> Junior Software Developer, Itransition, Minsk
               (Belarus) Developed new and supported existing application
               functionality. Technologies: Javascript, React, Git
-            </li>
+            </li> <br>
             <li>
-              09.2021 - 12.2021 Frontend Developer (Intern), Itransition, Minsk
+              &nbsp <b>09.2021 - 12.2021</b> Frontend Developer (Intern), Itransition, Minsk
               (Belarus) Developed simple aplications using frameworks Express.js
               for back-end, as well front-end with React. Technologies:
               Javascript, Java, React, Node.js, Express.js, MySQL, Git
             </li>
           </ul>
-        </section>
-        <section class="skills">
+        </article>
+        <article class="skills">
           <h2>Software Skills</h2>
           <ul>
             <li>Javascript</li>
@@ -56,64 +90,26 @@
             <li>MySQL</li>
             <li>Sequalize</li>
           </ul>
-        </section>
-        <section class="languages">
+        </article>
+        <article class="languages">
           <h2>Languages</h2>
           <ul>
             <li>English - B1</li>
             <li>Polish - B1</li>
             <li>Russian - Native</li>
           </ul>
-        </section>
+        </article>
       </main>
-      <aside class="aside">
-        <img src="./img/50962831.jpg" alt="My foto" />
-        <section class="education">
-          <h2>Education</h2>
-          <p>
-            Belarusian State Univercity of Transport Faculty: Distance form of
-            education. Speciality: Bulding technologies
-          </p>
-        </section>
-        <section class="code"><h2>Code Example</h2>
-          <code class="code-example">
-            function getRandomNumber(max) {
-              return Math.floor(Math.random() * max);
-            }
-          </code>
-
-        
-        </section>
-        <section class="contacts">
-          <h2>Contacts</h2>
-        </section>
-        <ul>
-          <li>Location: Gorzow Wielkopolski, Poland</li>
-          <li>Phone: +48451139540</li>
-          <li>
-            Email:
-            <a href="anton.klimenka.pl@gmail.com" target="_blank"
-              ><img
-                src="./img/icons8-google.svg"
-                alt="link to the email : anton.klimenka.@gmail.com"
-            /></a>
-          </li>
-        </ul>
-      </aside>
       <footer class="page-footer">
-        <ul>
-          <li>
-            <a href="https://github.com/quickermany" target="_blank">
-              <img src="./img/icons8-github.svg" alt="link to the github" />
-            </a>
-          </li>
-          <li>2022</li>
-          <li>
-            <a href="https://rs.school/js/" target="_blank"
-              ><img src="./img/rs_school_js.svg" alt="link to the course"
-            /></a>
-          </li>
-        </ul>
+        <span class="left">
+          <a href="https://github.com/quickermany" target="_blank">
+            <img src="./img/icons8-github.svg" alt="link to the github" /> </a
+        ></span>
+        <span class="center"><h4>2022</h4></span>
+        <span class="right">
+          <a href="https://rs.school/js/" target="_blank"
+            ><img src="./img/rs_school_js.svg" alt="link to the course" /></a
+        ></span>
       </footer>
     </div>
   </body>
